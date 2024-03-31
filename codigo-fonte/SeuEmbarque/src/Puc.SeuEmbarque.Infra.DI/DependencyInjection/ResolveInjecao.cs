@@ -1,6 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Puc.SeuEmbarque.Domain.ObjValor;
 using Puc.SeuEmbarque.Infra.ApiData.Interface;
 using Puc.SeuEmbarque.Infra.ApiData.Repository;
 using Puc.SeuEmbarque.Services.Interface;
@@ -25,9 +24,6 @@ namespace Puc.SeuEmbarque.Infra.DI.DependencyInjection
 
             #region Services
             services.AddScoped<IAeroportoService, AeroportoService>();
-            services.AddScoped<IUsuarioService, UsuarioService>();
-            services.AddScoped<IContractorResult, ContractorResult>();
-            //services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             #endregion
 
             #region HttpClient
