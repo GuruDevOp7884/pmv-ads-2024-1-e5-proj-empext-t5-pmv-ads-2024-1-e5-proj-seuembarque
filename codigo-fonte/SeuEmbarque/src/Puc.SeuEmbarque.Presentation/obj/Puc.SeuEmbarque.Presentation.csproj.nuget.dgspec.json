@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Presentation\\Puc.SeuEmbarque.Presentation.csproj": {}
+    "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Presentation\\Puc.SeuEmbarque.Presentation.csproj": {}
   },
   "projects": {
-    "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj": {
+    "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj",
+        "projectUniqueName": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj",
         "projectName": "Puc.SeuEmbarque.Domain",
-        "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj",
-        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\obj\\",
+        "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj",
+        "packagesPath": "C:\\Users\\Guru\\.nuget\\packages\\",
+        "outputPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\Puc.SeuEmbarque.Infra.ApiData.csproj": {
+    "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\Puc.SeuEmbarque.Infra.ApiData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\Puc.SeuEmbarque.Infra.ApiData.csproj",
+        "projectUniqueName": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\Puc.SeuEmbarque.Infra.ApiData.csproj",
         "projectName": "Puc.SeuEmbarque.Infra.ApiData",
-        "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\Puc.SeuEmbarque.Infra.ApiData.csproj",
-        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\obj\\",
+        "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\Puc.SeuEmbarque.Infra.ApiData.csproj",
+        "packagesPath": "C:\\Users\\Guru\\.nuget\\packages\\",
+        "outputPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj": {
-                "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj"
+              "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj": {
+                "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj"
               }
             }
           }
@@ -130,21 +130,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\Puc.SeuEmbarque.Infra.DI.csproj": {
+    "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\Puc.SeuEmbarque.Infra.DI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\Puc.SeuEmbarque.Infra.DI.csproj",
+        "projectUniqueName": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\Puc.SeuEmbarque.Infra.DI.csproj",
         "projectName": "Puc.SeuEmbarque.Infra.DI",
-        "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\Puc.SeuEmbarque.Infra.DI.csproj",
-        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\obj\\",
+        "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\Puc.SeuEmbarque.Infra.DI.csproj",
+        "packagesPath": "C:\\Users\\Guru\\.nuget\\packages\\",
+        "outputPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,8 +158,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj": {
-                "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj"
+              "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj": {
+                "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj"
               }
             }
           }
@@ -189,21 +189,76 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Presentation\\Puc.SeuEmbarque.Presentation.csproj": {
+    "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.Utils\\Puc.SeuEmbarque.Infra.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Presentation\\Puc.SeuEmbarque.Presentation.csproj",
-        "projectName": "Puc.SeuEmbarque.Presentation",
-        "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Presentation\\Puc.SeuEmbarque.Presentation.csproj",
-        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Presentation\\obj\\",
+        "projectUniqueName": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.Utils\\Puc.SeuEmbarque.Infra.Utils.csproj",
+        "projectName": "Puc.SeuEmbarque.Infra.Utils",
+        "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.Utils\\Puc.SeuEmbarque.Infra.Utils.csproj",
+        "packagesPath": "C:\\Users\\Guru\\.nuget\\packages\\",
+        "outputPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.Utils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guru\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Presentation\\Puc.SeuEmbarque.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Presentation\\Puc.SeuEmbarque.Presentation.csproj",
+        "projectName": "Puc.SeuEmbarque.Presentation",
+        "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Presentation\\Puc.SeuEmbarque.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Guru\\.nuget\\packages\\",
+        "outputPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Guru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -217,14 +272,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj": {
-                "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj"
+              "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj": {
+                "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj"
               },
-              "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\Puc.SeuEmbarque.Infra.DI.csproj": {
-                "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\Puc.SeuEmbarque.Infra.DI.csproj"
+              "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\Puc.SeuEmbarque.Infra.DI.csproj": {
+                "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.DI\\Puc.SeuEmbarque.Infra.DI.csproj"
               },
-              "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj": {
-                "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj"
+              "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj": {
+                "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj"
               }
             }
           }
@@ -263,21 +318,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj": {
+    "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj",
+        "projectUniqueName": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj",
         "projectName": "Puc.SeuEmbarque.Services",
-        "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj",
-        "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\obj\\",
+        "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\Puc.SeuEmbarque.Services.csproj",
+        "packagesPath": "C:\\Users\\Guru\\.nuget\\packages\\",
+        "outputPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -291,11 +346,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj": {
-                "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj"
+              "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj": {
+                "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Domain\\Puc.SeuEmbarque.Domain.csproj"
               },
-              "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\Puc.SeuEmbarque.Infra.ApiData.csproj": {
-                "projectPath": "C:\\CodigoFonteSeuEmbarque\\pmv-ads-2024-1-e5-proj-empext-t5-pmv-ads-2024-1-e5-proj-seuembarque\\codigo-fonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\Puc.SeuEmbarque.Infra.ApiData.csproj"
+              "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\Puc.SeuEmbarque.Infra.ApiData.csproj": {
+                "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.ApiData\\Puc.SeuEmbarque.Infra.ApiData.csproj"
+              },
+              "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.Utils\\Puc.SeuEmbarque.Infra.Utils.csproj": {
+                "projectPath": "G:\\Projeto Eixo5\\CodigoFonte\\SeuEmbarque\\src\\Puc.SeuEmbarque.Infra.Utils\\Puc.SeuEmbarque.Infra.Utils.csproj"
               }
             }
           }
@@ -309,6 +367,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -325,7 +389,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
