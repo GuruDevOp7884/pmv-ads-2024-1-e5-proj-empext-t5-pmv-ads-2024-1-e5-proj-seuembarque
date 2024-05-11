@@ -1,78 +1,83 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Puc.Diario.Infra;
-using Puc.SeuEmbarque.Domain.Models;
-using Puc.SeuEmbarque.Services.Interface;
-using Puc.SeuEmbarque.Services.Services;
 
 namespace Puc.SeuEmbarque.Presentation.Controllers
 {
     public class PacotesController : Controller
     {
-        private readonly IPacoteService _pacoteService;
-        private readonly IClienteService _clienteService;
-        public PacotesController(IPacoteService pacoteService, IClienteService clienteService)
-        {
-            _pacoteService = pacoteService;
-            _clienteService = clienteService;
-        }
-        // CRIAR UM DROPDOWN DE CLIENTES NA HORA DE INSERIR MANUALMENTE UM CLIENTE PARA VINCULAR O ID E AI SIM INSERIR UM PACOTE
         // GET: PacotesController
-        public ActionResult Pacotes()
+        public ActionResult Index()
         {
-            return View("pacotes_lst");
+            return View();
         }
 
-        public async Task<ActionResult> Register(int idPacote = 0, bool flEdit = true)
+        // GET: PacotesController/Details/5
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
+
+        // GET: PacotesController/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: PacotesController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(IFormCollection collection)
         {
             try
             {
-                var pacote = await _pacoteService.GetPacotePorId(idPacote);
-                var clientes = await _clienteService.ListarTodosClientes();
-
-                ViewBag.flEdit = flEdit;
-                ViewBag.Classe = new SelectList(Utils.ComboClasse(), "Value", "Text");
-                ViewBag.Hospedagem = new SelectList(Utils.ComboHospedagem(), "Value", "Text");
-                ViewBag.Opcionais = new SelectList(Utils.ComboOpcionais(), "Value", "Text");
-                ViewBag.Clientes = clientes;
-
-                return View("pacotes_reg", pacote);
+                return RedirectToAction(nameof(Index));
             }
-            catch (Exception ex)
+            catch
             {
-                throw;
+                return View();
             }
         }
 
-        [HttpDelete("/Pacotes/DeletarPacote")]
-        public async Task<IActionResult> DeletarPacote(int idPacote)
+        // GET: PacotesController/Edit/5
+        public ActionResult Edit(int id)
         {
-            bool isSuccess = await _pacoteService.DeletarPacote(idPacote);
-            return Ok(new { data = isSuccess });
+            return View();
         }
 
-        [HttpGet("/Pacotes/GetListaPacotes")]
-        public async Task<IActionResult> GetListaPacotes()
+        // POST: PacotesController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, IFormCollection collection)
         {
-            List<PacoteDto> pacotes = await _pacoteService.Buscar();
-            return Ok(new { data = pacotes });
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
         }
 
-        [HttpPost("/Pacotes/InserirPacote")]
-        public async Task<IActionResult> InserirPacote(Pacote pacote)
+        // GET: PacotesController/Delete/5
+        public ActionResult Delete(int id)
         {
-            var result = await _pacoteService.InserirPacote(pacote);
-
-            return Ok(new { data = result != null ? result : new PacoteData() });
+            return View();
         }
 
-        [HttpPost("/Pacotes/AtualizarPacote")]
-        public async Task<IActionResult> AtualizarPacote(PacoteData pacote)
+        // POST: PacotesController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, IFormCollection collection)
         {
-            var result = await _pacoteService.AtualizarPacote(pacote);
-
-            return Ok(new { data = result != null ? result : new PacoteData() });
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
         }
     }
 }

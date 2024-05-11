@@ -1,6 +1,5 @@
 using Puc.SeuEmbarque.Infra.DI.DependencyInjection;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +30,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Login}/{action=Login}"
+    pattern: "{controller=Formulario}/{action=Formulario}"
 );
 
 app.Run();

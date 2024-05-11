@@ -19,49 +19,21 @@ namespace Puc.SeuEmbarque.Infra.DI.DependencyInjection
         {
 
             #region Repositorio
-            services.AddScoped<IAeroportoRepository, AeroportoRepository>();
-            services.AddScoped<IPacoteRepository, PacoteRepository>();
-            services.AddScoped<IClienteRepository, ClienteRepository>();
-            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<ISkyscannerRepository, SkyscannerRepository>();
+
             #endregion
 
             #region Services
             services.AddScoped<IAeroportoService, AeroportoService>();
             services.AddScoped<IUsuarioService, UsuarioService>();
-            services.AddScoped<IUserContractorResult, UserContractorResult>();
-            services.AddScoped<IPacoteService, PacoteService>();
-            services.AddScoped<IClienteService, ClienteService>();
+            services.AddScoped<IContractorResult, ContractorResult>();
             //services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             #endregion
 
-
-            //HTTP CLIENT BASE ADRESS
-
-            #region BaseAdress Aeroporto
-            services.AddHttpClient("AeroportoApi", client =>
+            #region HttpClient
+            services.AddHttpClient("SkyScannerApi", client =>
             {
-                client.BaseAddress = new Uri("https://joseccosta.pythonanywhere.com/aeroportos/filtrar?city=");
-            });
-            #endregion
-
-            #region BaseAdress Pacote
-            services.AddHttpClient("PacotesApi", client =>
-            {
-                client.BaseAddress = new Uri("https://joseccosta.pythonanywhere.com");
-            });
-            #endregion
-
-            #region BaseAdress Cliente
-            services.AddHttpClient("ClientesApi", client =>
-            {
-                client.BaseAddress = new Uri("https://joseccosta.pythonanywhere.com/cliente");
-            });
-            #endregion
-
-            #region BaseAdress Usuario
-            services.AddHttpClient("UsuariosApi", client =>
-            {
-                client.BaseAddress = new Uri("https://joseccosta.pythonanywhere.com/usuario/admin");
+                client.BaseAddress = new Uri("https://partners.api.skyscanner.net/apiservices/v3/autosuggest/flights");
             });
             #endregion
 

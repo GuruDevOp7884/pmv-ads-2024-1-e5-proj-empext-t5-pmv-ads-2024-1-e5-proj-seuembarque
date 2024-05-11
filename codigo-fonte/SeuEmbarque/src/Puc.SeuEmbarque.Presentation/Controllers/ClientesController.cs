@@ -1,72 +1,83 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Puc.Diario.Infra;
-using Puc.SeuEmbarque.Domain.Models;
-using Puc.SeuEmbarque.Domain.Models.Cliente;
-using Puc.SeuEmbarque.Services.Interface;
-using Puc.SeuEmbarque.Services.Services;
 
 namespace Puc.SeuEmbarque.Presentation.Controllers
 {
     public class ClientesController : Controller
     {
-        private readonly IClienteService _clienteService;
-        public ClientesController(IClienteService clienteService)
+        // GET: ClientesController
+        public ActionResult Index()
         {
-            _clienteService = clienteService;
+            return View();
         }
 
-
-        public ActionResult Clientes()
+        // GET: ClientesController/Details/5
+        public ActionResult Details(int id)
         {
-            return View("clientes_lst");
+            return View();
         }
 
-        public async Task<ActionResult> Register(int idCliente = 0, bool flEdit = true)
+        // GET: ClientesController/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: ClientesController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(IFormCollection collection)
         {
             try
             {
-                var cliente = await _clienteService.GetClientePorId(idCliente);
-
-                ViewBag.flEdit = flEdit;             
-
-                return View("clientes_reg", cliente);
+                return RedirectToAction(nameof(Index));
             }
-            catch (Exception ex)
+            catch
             {
-                throw;
+                return View();
             }
         }
 
-        [HttpDelete("/Clientes/DeletarCliente")]
-        public async Task<IActionResult> DeletarCliente(int idCliente)
+        // GET: ClientesController/Edit/5
+        public ActionResult Edit(int id)
         {
-            bool isSuccess = await _clienteService.DeletarCliente(idCliente);
-            return Ok(new { data = isSuccess });
+            return View();
         }
 
-        [HttpGet("/Clientes/GetListaClientes")]
-        public async Task<IActionResult> GetListaClientes()
+        // POST: ClientesController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, IFormCollection collection)
         {
-            List<ClienteDataDto> clientes = await _clienteService.Buscar();
-            return Ok(new { data = clientes });
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
         }
 
-        [HttpPost("/Clientes/InserirCliente")]
-        public async Task<IActionResult> InserirCliente(Cliente cliente)
-        {           
-
-           var result = await _clienteService.InserirCliente(cliente);
-
-            return Ok(new { content = result != null ? result : new ClienteData() });
+        // GET: ClientesController/Delete/5
+        public ActionResult Delete(int id)
+        {
+            return View();
         }
 
-        [HttpPost("/Clientes/AtualizarCliente")]
-        public async Task<IActionResult> AtualizarCliente(ClienteDataDto cliente)
+        // POST: ClientesController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, IFormCollection collection)
         {
-            var result = await _clienteService.AtualizarCliente(cliente);
-
-            return Ok(new { data = result != null ? result : new ClienteData() });
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
         }
     }
 }

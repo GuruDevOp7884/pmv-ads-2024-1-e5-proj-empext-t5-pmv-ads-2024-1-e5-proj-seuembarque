@@ -20,10 +20,7 @@
 
 
 function CloseModal() {
-    $('#registry-mainregister-modal').modal('hide');   
-    setTimeout(function () {
-        location.reload();
-    }, 600);   
+    $('#registry-mainregister-modal').modal('hide');
 }
 
 function CloseModalPopup() {
@@ -72,7 +69,7 @@ function OpenDynamicModal(modalURL, modalData, modalId, timeout) {
             data: modalData,
             success: function (modalContent) {
                 HideModalLoading();
-                $(modalId).attr('data-backdrop', 'static');
+
                 $(modalId).find('#modal-content').html(modalContent);
                 if (modalContent.indexOf('<div') >= 0)
                     $(modalId).modal('show');
@@ -91,30 +88,4 @@ function OpenDynamicModal(modalURL, modalData, modalId, timeout) {
 
 function isMobile() {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
-}
-
-function Autenticar() {
-    var senhaHash = CryptoJS.SHA256($('#senha').val()).toString(CryptoJS.enc.Hex);
-    var params = {};
-    params.Email = $('#email').val();
-    params.Senha = senhaHash;
-    params.ManterLogado = $('#manterLogado').is(':checked');
-
-    $.ajax({
-        url: $('#loginForm').attr('action'),
-        method: 'POST',
-        data: params,
-        success: function (response) {
-            if (response.success) {
-                // Redirecionar ou executar outras ações necessárias
-                window.location.href = response.redirectUrl;
-            } else {
-                ExibirErro(true, response.message, 'error');
-            }
-        },
-        error: function (xhr, status, error) {
-            // Manipular erro de requisição, se necessário
-            console.error(error);
-        }
-    });
 }

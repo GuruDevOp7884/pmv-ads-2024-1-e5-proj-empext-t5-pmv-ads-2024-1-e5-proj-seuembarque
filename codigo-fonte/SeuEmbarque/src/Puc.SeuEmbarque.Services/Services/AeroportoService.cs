@@ -11,8 +11,8 @@ namespace Puc.SeuEmbarque.Services.Services
 {
     public class AeroportoService : IAeroportoService
     {
-        private readonly IAeroportoRepository _skyScannerRepository;
-        public AeroportoService(IAeroportoRepository skyScannerRepository)
+        private readonly ISkyscannerRepository _skyScannerRepository;
+        public AeroportoService(ISkyscannerRepository skyScannerRepository)
         {
             _skyScannerRepository = skyScannerRepository;
         }
@@ -24,8 +24,8 @@ namespace Puc.SeuEmbarque.Services.Services
             foreach (var aeroporto in result)
             {
                 var dto = new AeroportoDto();
-                dto.AeroportoId = aeroporto.Id;
-                dto.Name = $"{aeroporto.Name} ({aeroporto.Iata_code ?? "qualquer" })";
+                dto.Hierarchy = aeroporto.hierarchy;
+                dto.Name = $"{aeroporto.name} ({aeroporto.iataCode ?? "qualquer" })";
 
                 dtos.Add(dto);
             }
